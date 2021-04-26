@@ -1,0 +1,276 @@
+
+.header{
+	background-color: #567f8f;
+}
+
+#head.secondary{
+	background-color: #6596d6;
+}
+#head.secondary ul {
+	float: right;
+	list-style-type: none;
+	margin-top: 50px;
+	
+}
+#head.secondary ul li{
+	display: inline-block;
+}
+#head.secondary ul li a {
+	padding: 10px;
+	background-color: #fff;
+}
+.to{
+	background-color: #567f8f;
+}
+
+
+.container-fluid button{
+	background-color: #000;
+}
+table td button{
+	background-color: #6596e6;
+	color: #000;
+
+}
+table td button a{
+	color: #000;
+	transition: 0.7s ease;
+}
+table td button:hover{
+	text-decoration: none;
+   color: #fff;
+}
+table td button a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+
+.con{
+	background-color: #567f8f;
+}
+.headleft ul, .headright ul {
+	list-style: none;
+
+}
+.headleft ul li a, .headright ul li a {
+	text-decoration: none;
+	padding: 20px;
+	display: inline-block;
+	border: 1px solid transparent;
+	color: #000;
+	float: left;
+	transition: 0.7s ease;
+}
+.headleft ul li a {
+	font-size: 18px;
+	
+	font-weight: 600;
+}
+.headright ul li a {
+	font-size: 14px;
+
+	font-weight: 700;
+}
+.headleft ul li a:hover,.headright ul li a:hover {
+	color: #d90d0d;
+}
+.slider {
+	background-image: url(../images/learn.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 1000px;
+}
+.slidercontent h1,p {
+	text-align: center;
+}
+.slidercontent h1 {
+	font-size: 36px;
+	color: #fff;
+	font-weight: 400;
+	padding-top: 145px;
+	padding-bottom: 17px;
+}
+.slidercontent p {
+	font-size: 20px;
+	color: #fff;
+    font-weight: 300;
+    padding: 0px;
+}
+.slidercontent iframe{
+	
+}
+.slidercontent .button {
+	padding-top: 35px;
+}
+.slidercontent .button a {
+	text-decoration:none;
+	color: #fff;
+	border: 1px solid #000;
+	border-radius: 25px;
+	padding: 15px 30px 15px 30px;
+	transition: 0.7s ease;
+}
+.slidercontent .button a:hover {
+	text-decoration:none;
+	color: #000;
+	border: 1px solid #000;
+	border-radius: 25px;
+	padding: 15px 30px 15px 30px;
+	background-color: #AA9E88;
+}
+
+.content1 {
+	background-color: #F2F2F2;
+}
+.firstcontent {
+	padding: 30px 0px 30px 0px;
+}
+.firstcontent img{
+	width: 240px;
+	height: auto;
+	margin-top: 40px;
+	margin-left: 10px;
+	margin-bottom: 20px; 
+}
+.content1 .firstcontent .secondcontent h2 {
+	font-size: 18px;
+	font-weight: 700;
+	margin-left: 70px;
+	margin-top: 50px;
+}
+.content1 .firstcontent .secondcontent p {
+	text-align: left;
+	padding-top: 5px;
+	margin-left: 70px;
+}
+.content1 .firstcontent .secondcontent iframe{
+	margin-left:700px;
+	margin-top: -150px;
+}
+.content1 .box {
+	background-color: #fff;
+}
+.content1 .box .mm p{
+	padding-bottom: 28px;
+}
+.content1 .box img {
+	width: 25%;
+	height: 50%;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+.content1 .box h1 {
+	font-size: 36px;
+	font-weight: 800;
+	text-align: center;
+	padding-bottom: 6px;
+}
+.content1 .box p {
+	font-weight: 200;
+	text-align: center;
+	padding: 0px 20px 50px 20px;
+}
+
+
+
+.content2 h2 {
+	font-size: 24px;
+	font-weight: 700;
+	padding-left: 10px;
+}
+.content2 p {
+	padding: 20px 0px 0px 0px;
+	text-align: left;
+}
+.content2 .pic img {
+	width: 100%;
+	padding: 20px;
+	height: 180px;
+}
+.content2 .feature {
+	padding-top: 0px;
+}
+.content2 .feature ul {
+	list-style: none;
+}
+.content2 .feature ul li {
+	padding:5px;
+	cursor: pointer;
+	position: relative;
+}
+.content2 .feature ul li:before {
+	content: "\f00c";
+	color: #000;
+	position: absolute;
+	left: -15px;
+	font-family: "FontAwesome";
+}
+.coll{
+
+
+}
+.pict img{
+	width: 80%;
+	padding: 20px;
+	height: 200px;
+	margin-top: 2px;
+	margin-left: -22px;
+}
+.pictu img{
+	width: 80%;
+	padding: 20px;
+	height: 200px;
+	margin-top: -7px;
+	margin-left: -100px;
+}
+.form {
+	background-color: #F2F2F2;
+}
+.form .formmenu {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.form .formmenu h2 {
+	font-size: 24px;
+	font-weight: 700;
+	
+}
+form .form-group .message {
+	padding-top: 20px;
+	padding-bottom: 200px;
+} 
+.formmenu form .button {
+	padding: 15px 10px 15px 10px;
+	border: 1px solid #000;
+	border-radius: 25px;
+	width: 15%;
+	text-align: center;
+}
+.form button{
+	text-decoration: none;
+}
+.formmenu form .button a {
+	text-decoration:none;
+	color: #000;
+}
+.formmenu form .button:hover {
+	text-decoration:none;
+	background-color: #fff;
+}
+
+
+.foter {
+	background-color: #000;
+	
+}
+
+.foter .container-fluid p {
+	color: #fff;
+	font-weight: 300;
+	
+	text-align: center;
+	font-size: 14px;
+	padding:20px 0px 20px 0px;
+
+}
